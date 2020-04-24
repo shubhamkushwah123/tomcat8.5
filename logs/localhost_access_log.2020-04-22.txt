@@ -1,0 +1,17 @@
+0:0:0:0:0:0:0:1 - - [22/Apr/2020:15:38:32 +0530] "GET / HTTP/1.1" 200 11215
+0:0:0:0:0:0:0:1 - - [22/Apr/2020:15:38:32 +0530] "GET /tomcat.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [22/Apr/2020:15:38:32 +0530] "GET /tomcat.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [22/Apr/2020:15:38:32 +0530] "GET /asf-logo-wide.svg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [22/Apr/2020:15:38:32 +0530] "GET /bg-upper.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [22/Apr/2020:15:38:32 +0530] "GET /bg-nav.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [22/Apr/2020:15:38:32 +0530] "GET /bg-button.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [22/Apr/2020:15:38:32 +0530] "GET /bg-middle.png HTTP/1.1" 304 -
+127.0.0.1 - tomcat [22/Apr/2020:15:43:32 +0530] "GET /manager/text/list HTTP/1.1" 200 217
+127.0.0.1 - tomcat [22/Apr/2020:15:43:32 +0530] "PUT /manager/text/deploy?path=%2Fxplore HTTP/1.1" 200 63
+0:0:0:0:0:0:0:1 - - [22/Apr/2020:15:44:00 +0530] "GET /xplore HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [22/Apr/2020:15:44:00 +0530] "GET /xplore/ HTTP/1.1" 200 52
+127.0.0.1 - tomcat [22/Apr/2020:15:48:24 +0530] "GET /manager/text/list HTTP/1.1" 200 242
+127.0.0.1 - tomcat [22/Apr/2020:15:48:24 +0530] "GET /manager/text/list HTTP/1.1" 200 242
+127.0.0.1 - tomcat [22/Apr/2020:15:48:25 +0530] "GET /manager/text/undeploy?path=%2Fxplore HTTP/1.1" 200 65
+127.0.0.1 - tomcat [22/Apr/2020:15:48:25 +0530] "PUT /manager/text/deploy?path=%2Fxplore HTTP/1.1" 200 63
+0:0:0:0:0:0:0:1 - - [22/Apr/2020:15:48:39 +0530] "GET /xplore/ HTTP/1.1" 200 83
